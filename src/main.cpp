@@ -100,11 +100,10 @@ void cSolution::CalculateNeed()
     srand(time(NULL));
     for (auto &s : myPotentialStops)
     {
-        // s.myNeed = rand() % 10 + 1;
         if (s.myLoc.first == 10)
-            s.myNeed = 10;
+            s.myNeed = rand() % 10 + 10;
         else
-            s.myNeed = 0;
+            s.myNeed = rand() % 2 + 1;
     }
 }
 
