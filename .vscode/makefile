@@ -6,7 +6,7 @@ INCS = -I./include \
 	-I../ravencode/pub/src \
 	-I../raven-set \
 	-I../KMeans/src \
-	-I../boost/boost1_78 
+	-I../../code_ext/boost/boost_1_84_0
 
 LIBS = \
 	-lgdiplus -lgdi32 -lcomdlg32 -lstdc++fs \
